@@ -1,0 +1,3 @@
+models/cnn_model_0.790acc_0.803auc_12-03.h5
+models/vit_model_0.792acc_0.770auc_12-02.h5
+models/vit_model_0.795acc_0.779auc_12-02.h5
