@@ -18,9 +18,10 @@ Other preprocessing methods, such as converting images to grayscale and applying
 
 # Models  
 
+Various models were tested in the initial stages of research for this project, and the following two models were selected for further training and tuning. Both were inintialized with pretrained ImageNet weights and extended with a custom classification head configured for binary classification
+
 ### EfficientNet (CNN)  
-- Initiated with Pretrained ImageNet weights.  
-- Extended with global average pooling, dropout, and a dense output layer.
+- Binary classification head consisted of global average pooling, dropout, and a dense output layer.
 
 <img src="assets/EfficientNet_Screenshot.png" width="800" />
 
