@@ -8,9 +8,9 @@ The ODIR-5K dataset used in this study consists of color fundus images, demograp
 
 # Preprocessing  
 
-To prepare the images for training, several preprocessing techniques were applied to enhance consistency and quality. Images were cropped to remove extraneous areas surrounding the fundus and adjusted for angular variations. Contrast Limited Adaptive Histogram Equalization (CLAHE) was used to improve visibility of retinal features such as microaneurysms and exudates. Additional techniques, including flipping and rotation, were used for data augmentation to improve model robustness.  
+To prepare the images for training, several preprocessing techniques were applied to enhance consistency and quality. Cropping was applied as needed to remove extra space around the fundus and to adjust for major variations in the angle of the images. Contrast Limited Adaptive Histogram Equalization (CLAHE) was used to improve visibility of retinal features such as microaneurysms and exudates. Additional techniques, including flipping and rotation, were also used for data augmentation in order to mitigate overfitting.  
 
-Below is an example of a fundus image before and after CLAHE enhancement:  
+Below is an example of fundus images before and after CLAHE enhancement:  
 
 <img src="assets/Preprocessing_Screenshot.png" />
 
@@ -19,14 +19,14 @@ Other preprocessing methods, such as converting images to grayscale and applying
 # Models  
 
 ### EfficientNet (CNN)  
-- Pretrained on ImageNet.  
+- Initiated with Pretrained ImageNet weights.  
 - Extended with global average pooling, dropout, and a dense output layer.
 
 <img src="assets/EfficientNet_Screenshot.png" width="800" />
 
 ### Vision Transformer (ViT)  
-- Splits images into patches with attention mechanisms to capture long-range dependencies.  
-- Built using Hugging Face ViTModel with pretrained ImageNet weights.
+- Initiated with Pretrained ImageNet weights.
+- Splits images into patches with attention mechanisms to capture long-range dependencies.
 
 <img src="assets/VisionTransformer_Screenshot.png" width="800" />
 
