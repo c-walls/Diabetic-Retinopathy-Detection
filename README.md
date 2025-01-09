@@ -21,12 +21,13 @@ Other preprocessing methods, such as converting images to grayscale and applying
 Various models were tested in the initial stages of research for this project, and the following two models were selected for further training and tuning. Both were inintialized with pretrained ImageNet weights and extended with a custom classification head configured for binary classification
 
 ### EfficientNet (CNN)  
+- EfficientNet uses a scalable and efficient convolutional neural network (CNN) architecture that balances model depth, width, and resolution.
 - Base model extended with a binary classification head consisting of a global average pooling layer, batch normalization layer, dropout layer, and a dense output layer.
 
 <img src="assets/EfficientNet_Screenshot.png" width="800" />
 
 ### Vision Transformer (ViT)  
-- Splits images into patches with attention mechanisms to capture long-range dependencies.
+- Employs an encoder-only transformer architecture that splits images into patches and processes them using self-attention mechanisms.
 - Base model extended with a binary classification head consisting of a dropout layer, and a dense output layer.
 
 <img src="assets/VisionTransformer_Screenshot.png" width="800" />
