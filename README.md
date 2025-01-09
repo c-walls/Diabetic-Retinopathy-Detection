@@ -18,7 +18,7 @@ Other preprocessing methods, such as converting images to grayscale and applying
 
 # Models  
 
-Various models were tested in the initial stages of research for this project, and the following two models were selected for further training and tuning. Both were inintialized with pretrained ImageNet weights and extended with a custom classification head configured for binary classification
+Various models were tested in the initial stages of research for this project, and the following two models were selected for further training and tuning. Both were inintialized with pretrained ImageNet weights and extended with a custom classification head configured for binary classification.
 
 ### EfficientNet (CNN)  
 - EfficientNet uses a scalable and efficient convolutional neural network architecture that balances model depth, width, and resolution.
