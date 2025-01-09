@@ -21,13 +21,13 @@ Other preprocessing methods, such as converting images to grayscale and applying
 Various models were tested in the initial stages of research for this project, and the following two models were selected for further training and tuning. Both were inintialized with pretrained ImageNet weights and extended with a custom classification head configured for binary classification
 
 ### EfficientNet (CNN)  
-- Binary classification head consisted of global average pooling, dropout, and a dense output layer.
+- Base model extended with a binary classification head consisting of a global average pooling layer, batch normalization layer, dropout layer, and a dense output layer.
 
 <img src="assets/EfficientNet_Screenshot.png" width="800" />
 
 ### Vision Transformer (ViT)  
-- Initiated with Pretrained ImageNet weights.
 - Splits images into patches with attention mechanisms to capture long-range dependencies.
+- Base model extended with a binary classification head consisting of a dropout layer, and a dense output layer.
 
 <img src="assets/VisionTransformer_Screenshot.png" width="800" />
 
