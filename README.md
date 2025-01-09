@@ -12,7 +12,7 @@ To prepare the images for training, several preprocessing techniques were applie
 
 Below is an example of a fundus image before and after CLAHE enhancement:  
 
-![CLAHE Enhancement Example](path/to/image.png)  
+![CLAHE Enhancement Example](path/)  
 
 Other preprocessing methods, such as converting images to grayscale and applying Gaussian filters, were tested but excluded from the final pipeline due to suboptimal results.  
 
@@ -20,11 +20,15 @@ Other preprocessing methods, such as converting images to grayscale and applying
 
 ### EfficientNet (CNN)  
 - Pretrained on ImageNet.  
-- Extended with global average pooling, dropout, and a dense output layer.  
+- Extended with global average pooling, dropout, and a dense output layer.
+
+<img src="assets/EfficientNet_Screenshot.png" width="800" />
 
 ### Vision Transformer (ViT)  
 - Splits images into patches with attention mechanisms to capture long-range dependencies.  
-- Built using Hugging Face ViTModel with pretrained ImageNet weights.  
+- Built using Hugging Face ViTModel with pretrained ImageNet weights.
+
+<img src="assets/VisionTransformer_Screenshot.png" width="800" />
 
 # Training  
 
