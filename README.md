@@ -12,7 +12,7 @@ To prepare the images for training, several preprocessing techniques were applie
 
 Below is an example of a fundus image before and after CLAHE enhancement:  
 
-![CLAHE Enhancement Example](path/)  
+<img src="assets/Preprocessing_Screenshot.png" />
 
 Other preprocessing methods, such as converting images to grayscale and applying Gaussian filters, were tested but excluded from the final pipeline due to suboptimal results.  
 
