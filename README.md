@@ -49,4 +49,4 @@ EfficientNetB3 achieved the highest AUC (0.803), demonstrating strong suitabilit
 
 # Conclusion  
 
-This study demonstrates the potential of deep learning models for automating diabetic retinopathy detection. While EfficientNetB3 achieved the highest accuracy, its increased bias highlights the importance of addressing fairness as models scale. Vision Transformers, with their robust performance and reduced bias, show significant promise. Future work could explore larger datasets, extended training durations, and advanced fairness strategies to enhance performance further.  
+This study demonstrates the potential of deep learning models for automating diabetic retinopathy detection. While EfficientNetB3 achieved the highest AUC, its increased bias highlights the importance of addressing fairness as models scale. Vision Transformers, with their robust performance and reduced bias, show significant promise. Future work could explore larger datasets, extended training durations, and advanced fairness strategies to enhance performance further.  
